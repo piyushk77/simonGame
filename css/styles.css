@@ -1,0 +1,100 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.base-container {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.base {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px; 
+    padding-top: 60px; /*20px*/
+}
+
+.main-heading {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.main-heading h1 {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4.5rem;  /*3.8*/
+}
+
+.play-buttons div {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+}
+
+/* .button-one-pos, .button-two-pos, .button-three-pos, .button-four-pos {
+    top: 335px;
+    left: 670px;
+} */
+
+/* .button-one-pos {
+    top: 230px;
+    left: 580px;
+}
+
+.button-two-pos {
+    top: 230px;
+    left: 800px;
+}
+
+.button-three-pos {
+    top: 450px;
+    left: 580px;
+}
+
+.button-four-pos {
+    top: 450px;
+    left: 800px;
+} */
+
+.neumorphicity-plane {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 50px #bebebe, -20px -20px 50px #ffffff;
+}
+
+.neumorphicity-convex {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 50px #bebebe,
+        -20px -20px 50px #ffffff;
+}
+
+/*........................................DISPLAY CHANGE DUE TO EVENTS.....................*/
+
+
+.glow-red {
+    background: #fe95af;
+    box-shadow: 50px 50px 100px #d87f95, -50px -50px 100px #ffabc9;
+}
+
+.glow-green {
+    background: linear-gradient(145deg, #aef6c4, #93cfa5);
+    box-shadow: 50px 50px 100px #8bc49c, -50px -50px 100px #bbffd2;
+}
+
+.glow-yellow {
+    background: #dcee9b;
+    box-shadow: 50px 50px 100px #bbca84, -50px -50px 100px #fdffb2;
+}
+
+.glow-blue {
+    background: #6bd3ff;
+    box-shadow: 50px 50px 100px #5bb3d9, -50px -50px 100px #7bf3ff;
+}
+
+/*..................................................MEDIA QUERIES..................................*/
